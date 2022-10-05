@@ -1,0 +1,14 @@
+
+
+public class Ifclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age= Integer.parseInt(args[0]);
+		if(age>=18) {
+			System.out.print("eligible to vote");
+		}
+   
+	}
+
+}

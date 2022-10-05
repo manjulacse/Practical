@@ -1,0 +1,27 @@
+class Bank {
+   int accountno;
+   int age;
+   String name;
+   Bank( int no, int age)
+  {   
+     accountno= no;
+     age=age;
+}
+    Bank (int no, int age , String n)
+  {
+      accountno=no;
+   age= age;
+  name=n;
+}
+  void display()
+ {
+      System.out.println(accountno+ " " + age+ "   "+ name);
+}
+  public static void main( String args[])
+{
+    Bank obj= new Bank(5,18);
+   Bank obj1= new Bank( 10,43, manjula);
+    obj.display();
+    obj1.display();
+}
+}
